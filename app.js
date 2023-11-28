@@ -6,6 +6,9 @@ const {routesInit} = require("./routes/config_routes")
 require("./db/mongoconnect");
 require("dotenv").config()
 
+// 123456
+
+
 const app = express();
 
 // נותן גישה לכל הדומיינים לגשת לשרת שלנו
